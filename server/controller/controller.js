@@ -87,6 +87,7 @@ exports.update = (req, res)=>{
 
 // Delete a user with specified user id in the request
 exports.delete = (req, res)=>{
+//giup doc id gui len
     const id = req.params.id;
 
     Userdb.findByIdAndDelete(id)

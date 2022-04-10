@@ -1,6 +1,7 @@
 const express = require('express');
 //read file 
 const dotenv = require('dotenv');
+//dung de lay du lieu tu data form gui len cho vao req.body
 const bodyparser = require("body-parser");
 const path = require('path');
 
